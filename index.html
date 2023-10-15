@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levi-Ponti</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--* Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Levi-Ponti.png" alt="immagine Levi-Ponti" width="196" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#orari">Orari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#indirizzi">Indirizzi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselPricipale" class="carousel slide ms-5 me-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Informatica.jpg" class="img-fluid immagini" alt="Informatica.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Meccatronica.jpg" class="img-fluid immagini" alt="Meccatronica.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Automazione.jpg" class="img-fluid immagini" alt="Automazione.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Chimica.jpg" class="img-fluid immagini" alt="Chimica.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Grafica.jpg" class="img-fluid immagini" alt="Grafica.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Manutenzione.jpg" class="img-fluid immagini" alt="Manutenzione.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="carouselPricipale" class="carousel slide ms-auto me-auto " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url(img/Informatica.jpg);">
+            </div>
+            <div class="carousel-item" style="background-image: url(img/meccatronica.jpg);">
+            </div>
+            <div class="carousel-item" style="background-image: url(img/Automazione.jpg);">
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="container-fluid text-center" id="indirizzi">
+        <h1 class="mt-4">Indirizzi Levi</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Elettronica e Elettrotecnica</h5>
+                        <p class="card-text">Specializzazioni possibili:</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="html/Automazione.html" class="card-link">Automazione</a>
+                        </li>
+                        <li class="list-group-item"><a href="html/Elettronica.html" class="card-link">Elettronica</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Chimica, Materiali e Biotecnologie</h5>
+                        <p class="card-text">Specializzazioni possibili:</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="html/BiotecnologieAmbientali.html"
+                                class="card-link">Biotecnologie Ambientali</a></li>
+                        <li class="list-group-item"><a href="html/BiotecnologieSanitarie.html"
+                                class="card-link">Biotecnologie Sanitarie</a></li>
+                        <li class="list-group-item"><a href="html/ChimicaEMateriali.html" class="card-link">Chimica e
+                                Materiali</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Informatica e Telecomunicazioni</h5>
+                        <p class="card-text">Specializzazioni possibili:</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="html/Informatica.html" class="card-link">Informatica</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Meccanica, Meccatronica ed Energia</h5>
+                        <p class="card-text">Specializzazioni possibili:</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="html/Meccatronica.html" class="card-link">Meccatronica</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h1 class="mt-4">Indirizzi Ponti</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Manutenzione e assistenza tecnica</h5>
+                        <p class="card-text">Specializzazioni possibili:</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="html/Manutenzione.html" class="card-link">Manutenzione ed
+                                installazione di impianti elettrici, idraulici-civile e servizi</a></li>
+                        <li class="list-group-item"><a href="html/ManutenzioneIndustriale.html"
+                                class="card-link">Manutenzione ed
+                                installazione macchine, apparecchiature e robotica-industriale</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Servizi Commerciali</h5>
+                        <p class="card-text">Specializzazioni possibili:</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="html/Grafica.html" class="card-link">Grafica e
+                                comunicazione per il web</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- orario -->
+    <div class="container text-center mt-5" id="orari">
+        <h1>Orario</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Orario Classi</h5>
+                        <a target="_blank" href="./pdf/OrarioClassi.pdf" class="btn btn-primary">
+                            Visualizza
+                        </a>
+                        <a href="./pdf/OrarioClassi.pdf" Download class="btn btn-primary">
+                            Scarica
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ms-auto me-auto mb-4 mt-4" style="width: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Orario Docenti</h5>
+                        <a target="_blank" href="./pdf/OrarioDocenti.pdf" class="btn btn-primary">
+                            Visualizza
+                        </a>
+                        <a href="./pdf/OrarioDocenti.pdf" Download class="btn btn-primary">
+                            Scarica
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fine orario -->
+
+
+
+
+
+
+
+
+
+    <!-- <div id="carousel" class="carousel slide container">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/chimica.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/arduino.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Informatica.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+
+
+    <!-- <div id="demo" class="carousel slide mt-5" data-ride="carousel">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/elettrotecnica.png" class="d-block w-100" height=500px alt="Elettrotecnica">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Elettrotecnica ed Elettronica</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/chimica.png" class="d-block w-100" height=500px alt="Chimica">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Chimica, Materiali e Biotecnologie</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/informatica.png" class="d-block w-100" height=500px alt="informatica">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Informatica e Telecomunicazioni</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/meccanica.png" class="d-block w-100" height=500px alt="Meccanica">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Meccanica, Meccatronica ed Energia</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/manutenzione.png" class="d-block w-100" height=500px alt="Manutenzione">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Manutenzione e assistenza tecnica</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/servizi.png" class="d-block w-100" height=500px alt="Servizi">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Servizi commerciali</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div> -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner m-5">
+          <div class="carousel-item active">
+            <img src="img/chimica.png" class="d-block w-100" alt="chimica">
+          </div>
+          <div class="carousel-item">
+            <img src="img/elettrotecnica.png" class="d-block w-100" alt="elettrotecnica">
+          </div>
+          <div class="carousel-item">
+            <img src="img/informatica.png" class="d-block w-100" alt="informatica">
+          </div>
+          <div class="carousel-item">
+            <img src="img/manutenzione.png" class="d-block w-100" alt="manutenzione">
+          </div>
+          <div class="carousel-item">
+            <img src="img/meccanica.png" class="d-block w-100" alt="meccanica">
+          </div>
+          <div class="carousel-item">
+            <img src="img/servizi.png" class="d-block w-100" alt="servizi">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+
+    <!-- Bootstraps JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+<!-- <div id="titolo">
+
+    <h1>Logitech G502 HERO</h1>
+    <h2>Mouse gaming dalle prestazioni elevate</h2>
+</div>
+<div id="specifiche_immagine">
+    <div id="immagine_Descrizione">
+        <div id="descrizione">
+
+            <p>
+                Pensato per prestazioni di gioco avanzate. G502 HERO include il sensore gaming HERO 25K con
+                precisione
+                submicrometrica, LIGHTSYNC RGB personalizzabile, pesi ridistribuibili e molto altro ancora.
+            </p>
+        </div>
+        <div id="immagine">
+            <img src="img/G502_Hero.png" alt="foto mouse G502 Hero" id="tagImmagine">
+        </div>
+    </div>
+    <div id="specifiche">
+        <table>
+            <tr>
+                <th colspan="2" id="titolazione">SPECIFICHE TECNICHE</th>
+            </tr>
+            <tr>
+                <th colspan="2">DIMENSIONI</th>
+            </tr>
+            <tr>
+                <td>Altezza</td>
+                <td>132 mm</td>
+            </tr>
+            <tr>
+                <td>Larghezza</td>
+                <td>75 mm</td>
+            </tr>
+            <tr>
+                <td>Profondità</td>
+                <td>40mm</td>
+            </tr>
+            <tr>
+                <td>Peso</td>
+                <td>121 g, solo mouse</td>
+            </tr>
+            <tr>
+                <td>Pesi opzionali</td>
+                <td>Fino a 18 g (5 x 3,6 g)</td>
+            </tr>
+            <tr>
+                <td>Lunghezza cavo</td>
+                <td>2,10 m</td>
+            </tr>
+            <tr>
+                <th colspan="2">TRACCIAMENTO</th>
+            </tr>
+            <tr>
+                <td>Sensore</td>
+                <td>HERO</td>
+            </tr>
+            <tr>
+                <td>Risoluzione</td>
+                <td> 100 - 25.600 DPI</td>
+            </tr>
+            <tr>
+                <td>Massima accelerazione</td>
+                <td>> 40 g</td>
+            </tr>
+            <tr>
+                <td>Massima velocità</td>
+                <td>> 400 IPS</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="flexImmagini">
+    <div><img src="img/G502_Hero1.png" alt="foto mouse G502 Hero (1)" class="immagini"></div>
+    <div><img src="img/G502_Hero2.png" alt="foto mouse G502 Hero (2)" class="immagini"></div>
+    <div><img src="img/G502_Hero3.png" alt="foto mouse G502 Hero (3)" class="immagini"></div>
+    <div><img src="img/G502_Hero4.png" alt="foto mouse G502 Hero (4)" class="immagini"></div>
+    <div><img src="img/G502_Hero5.png" alt="foto mouse G502 Hero (5)" class="immagini"></div>
+    <div><img src="img/G502_Hero6.png" alt="foto mouse G502 Hero (6)" class="immagini"></div>
+</div> -->
+
+<!-- <div id="titolo">
+
+    <h1>Logitech G502 HERO</h1>
+    <h2>Mouse gaming dalle prestazioni elevate</h2>
+</div>
+<div id="specifiche_immagine">
+    <div id="immagine_Descrizione">
+        <div id="descrizione">
+
+            <p>
+                Pensato per prestazioni di gioco avanzate. G502 HERO include il sensore gaming HERO 25K con
+                precisione
+                submicrometrica, LIGHTSYNC RGB personalizzabile, pesi ridistribuibili e molto altro ancora.
+            </p>
+        </div>
+        <div id="immagine">
+            <img src="img/G502_Hero.png" alt="foto mouse G502 Hero" id="tagImmagine">
+        </div>
+    </div>
+    <div id="specifiche">
+        <table>
+            <tr>
+                <th colspan="2" id="titolazione">SPECIFICHE TECNICHE</th>
+            </tr>
+            <tr>
+                <th colspan="2">DIMENSIONI</th>
+            </tr>
+            <tr>
+                <td>Altezza</td>
+                <td>132 mm</td>
+            </tr>
+            <tr>
+                <td>Larghezza</td>
+                <td>75 mm</td>
+            </tr>
+            <tr>
+                <td>Profondità</td>
+                <td>40mm</td>
+            </tr>
+            <tr>
+                <td>Peso</td>
+                <td>121 g, solo mouse</td>
+            </tr>
+            <tr>
+                <td>Pesi opzionali</td>
+                <td>Fino a 18 g (5 x 3,6 g)</td>
+            </tr>
+            <tr>
+                <td>Lunghezza cavo</td>
+                <td>2,10 m</td>
+            </tr>
+            <tr>
+                <th colspan="2">TRACCIAMENTO</th>
+            </tr>
+            <tr>
+                <td>Sensore</td>
+                <td>HERO</td>
+            </tr>
+            <tr>
+                <td>Risoluzione</td>
+                <td> 100 - 25.600 DPI</td>
+            </tr>
+            <tr>
+                <td>Massima accelerazione</td>
+                <td>> 40 g</td>
+            </tr>
+            <tr>
+                <td>Massima velocità</td>
+                <td>> 400 IPS</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+            <tr>
+                <th colspan="2">RISPOSTA</th>
+            </tr>
+            <tr>
+                <td>Formato dati USB</td>
+                <td>16 bit/asse</td>
+            </tr>
+            <tr>
+                <td>Frequenza di aggiornamento USB</td>
+                <td>1000Hz (1 ms)</td>
+            </tr>
+            <tr>
+                <td>Microprocessore</td>
+                <td>ARM a 32 bit</td>
+            </tr>
+            <tr>
+                <th colspan="2">RESISTENZA</th>
+            </tr>
+            <tr>
+                <td>Piedini in PTFE</td>
+                <td>250 chilometri</td>
+            </tr>
+            <tr>
+                <th colspan="2">ALTRE CARATTERISTICHE</th>
+            </tr>
+            <tr>
+                <td>Memoria integrata</td>
+                <td>Fino a 5 profili</td>
+            </tr>
+            <tr>
+                <td>LIGHTSYNC RGB</td>
+                <td>1 zona</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="flexImmagini">
+    <div><img src="img/G502_Hero1.png" alt="foto mouse G502 Hero (1)" class="immagini"></div>
+    <div><img src="img/G502_Hero2.png" alt="foto mouse G502 Hero (2)" class="immagini"></div>
+    <div><img src="img/G502_Hero3.png" alt="foto mouse G502 Hero (3)" class="immagini"></div>
+    <div><img src="img/G502_Hero4.png" alt="foto mouse G502 Hero (4)" class="immagini"></div>
+    <div><img src="img/G502_Hero5.png" alt="foto mouse G502 Hero (5)" class="immagini"></div>
+    <div><img src="img/G502_Hero6.png" alt="foto mouse G502 Hero (6)" class="immagini"></div>
+</div> -->
